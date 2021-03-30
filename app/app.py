@@ -1,6 +1,6 @@
 import json
 
-from lib.github_metrics import GithubOrgMetrics
+from github_metrics import GithubOrgMetrics
 
 def lambda_handler(event, context):
     metrics = GithubOrgMetrics(
